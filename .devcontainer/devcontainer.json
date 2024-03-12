@@ -1,0 +1,17 @@
+{ 
+    // Name of the devcontainer
+    "name": "dotnet-core-sdk",    
+    
+    // docker file to use    
+    "dockerFile" : "dockerfile",
+
+    // Add customization to the container
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csdevkit",
+                "ms-dotnettools.vscode-dotnet-pack"
+            ]
+        }
+    }
+}
